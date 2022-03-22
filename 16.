@@ -1,0 +1,28 @@
+/*
+ * 16. 입력 받은 정수를 비트 반전한 결과를 출력하시오.
+ * 
+ * 이 다음에 어떻게 해야 하는 지 잘 모르겠습니다. ㅠㅠ
+ */
+import java.util.Scanner;
+
+public class IfMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		
+		int a;
+		
+		
+		System.out.print("정수의 값은 : ");
+		a = s.nextInt();
+		
+		String bin = Integer.toBinaryString(a);
+		
+		System.out.println("2진수의 값: " + bin );
+	
+		
+		
+	}
+
+}
